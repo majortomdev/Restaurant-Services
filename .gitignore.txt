@@ -1,4 +1,4 @@
 node_modules
 **/node_modules
-/food-delivery-map/node_modules
+/food-delivery-app/node_modules
 *node_modules/*
