@@ -1,5 +1,5 @@
 export interface FoodItem {
-    id?: number;
+    id: number;
     itemName?: string;
     itemDescription?: string;
     isVeg?: boolean;

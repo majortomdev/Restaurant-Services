@@ -14,7 +14,7 @@ export class FoodItemService {
     constructor(private http: HttpClient) { }
 
     getFoodItemsByRestaurant(id:number): Observable<any> {
-      //console.log("here:    "+this.http.get<any>(`${this.apiUrl+id}`))
+
         return this.http.get<any>(`${this.apiUrl+id}`)
           .pipe(
             catchError(this.handleError)
