@@ -1,0 +1,13 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka-0.eureka-service.default.svc.cluster.local:8761/eureka
+      #defaultZone: http://localhost:8761/eureka/
+
+
+      #the above URL represents the EUREKA servers endpoint within a Kubernetes cluster
+
+      #eureka-0 -> this is the hostname of eureka server inst within K8 cluster
+      #eureka-service -> the name of the k8 service assoc with the eureka server
+      #default -> namespace in which eureka service and pods are deployed
+      #svc.cluster.local -> domain suffix for k8 services within the cluster

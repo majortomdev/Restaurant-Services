@@ -1,0 +1,13 @@
+docker build -t tombostar/restaurant-listing-service:latest .
+docker push tombostar/restaurant-listing-service:latest
+
+
+docker build -t tombostar/food-catalogue-service:latest .
+docker push tombostar/food-catalogue-service:latest
+
+
+docker build -t tombostar/order-service:latest .
+docker push tombostar/order-service:latest
+
+docker build -t tombostar/user-service:latest .
+docker push tombostar/user-service:latest

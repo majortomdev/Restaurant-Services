@@ -1,11 +1,9 @@
 server:
   port: 9092
-eureka:
-  cient:
-    service-url:
-      defaultZone: http://localhost:8761/eureka/
 
 spring:
+  profiles:
+    active: dev
   application:
     name: FOOD-CATALOGUE-SERVICE
   datasource:
